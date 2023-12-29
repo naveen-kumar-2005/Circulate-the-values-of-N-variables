@@ -19,6 +19,7 @@ Evaluate the a input
 Enter integer (n) in input.
 
 ## Program:
+```
 #Program to circulate N values.
 #Developed by: NAVEEN KUMAR.R
 #RegisterNumber:23013536
@@ -27,6 +28,7 @@ def circulate():
     n=int(input())
     result=list1[n:]+list1[:n]
     print('After circulating the values are:',result)
+```
 ## Output:
 ![Alt text](<Screenshot 2023-11-19 114747.png>)
 ## Result:
